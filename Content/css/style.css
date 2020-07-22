@@ -1,0 +1,171 @@
+﻿
+.rowred {
+    color: red;
+}
+
+.rowblack {
+    color: black;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.pagination .paginate_button > a:focus {
+    outline: none;
+    border-color: #337ab7 !important;
+}
+
+#SecureReportEmailer_rbldownload > input {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    padding-top: 25px;
+    vertical-align: sub;
+}
+
+input[type="file"] {
+    display: block;
+    height: auto;
+}
+
+
+.loaderoverlay {
+    position: fixed;
+    z-index: 2000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /*background-color: #ddd4d4;*/
+    opacity: 1;
+    background: rgba( 255, 255, 255, 0 ) url('../../Content/img/loading.gif') 50% 50% no-repeat;
+    /*background-color: #00000057;*/
+    background-color: rgba(0,0,0,.6);
+    /*background-size: 150px;*/
+    /*opacity: 0;
+    transition: opacity .8s ease-in-out;    
+    /*background: rgba( 255, 255, 255, .8 ) url('/Resources/app/img/icons/Flex-Icon-Spin.gif') 50% 50% no-repeat;
+    z-index: -1;*/
+}
+
+
+#charity_loader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(255,255,255,.4);
+    z-index: 99999;
+}
+
+span.loader-span {
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: calc(50% - 1px);
+}
+
+.ball-spin-fade-loader {
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.loader-inner {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.ball-spin-fade-loader > div {
+    background-color: #3374ba;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: absolute;
+}
+
+    .ball-spin-fade-loader > div:nth-child(2) {
+        top: 17.05px;
+        left: 17.05px;
+        -webkit-animation: ball-spin-fade-loader 1s -.84s infinite linear;
+        animation: ball-spin-fade-loader 1s -.84s infinite linear;
+    }
+
+    .ball-spin-fade-loader > div:nth-child(1) {
+        top: 25px;
+        left: 0;
+        -webkit-animation: ball-spin-fade-loader 1s -.96s infinite linear;
+        animation: ball-spin-fade-loader 1s -.96s infinite linear;
+    }
+
+    .ball-spin-fade-loader > div:nth-child(3) {
+        top: 0;
+        left: 25px;
+        -webkit-animation: ball-spin-fade-loader 1s -.72s infinite linear;
+        animation: ball-spin-fade-loader 1s -.72s infinite linear;
+    }
+
+    .ball-spin-fade-loader > div:nth-child(4) {
+        top: -17.05px;
+        left: 17.05px;
+        -webkit-animation: ball-spin-fade-loader 1s -.6s infinite linear;
+        animation: ball-spin-fade-loader 1s -.6s infinite linear;
+    }
+
+    .ball-spin-fade-loader > div:nth-child(5) {
+        top: -25px;
+        left: 0;
+        -webkit-animation: ball-spin-fade-loader 1s -.48s infinite linear;
+        animation: ball-spin-fade-loader 1s -.48s infinite linear;
+    }
+
+    .ball-spin-fade-loader > div:nth-child(6) {
+        top: -17.05px;
+        left: -17.05px;
+        -webkit-animation: ball-spin-fade-loader 1s -.36s infinite linear;
+        animation: ball-spin-fade-loader 1s -.36s infinite linear;
+    }
+
+    .ball-spin-fade-loader > div:nth-child(7) {
+        top: 0;
+        left: -25px;
+        -webkit-animation: ball-spin-fade-loader 1s -.24s infinite linear;
+        animation: ball-spin-fade-loader 1s -.24s infinite linear;
+    }
+
+
+.ball-spin-fade-loader > div:nth-child(8) {
+    top: 17.05px;
+    left: -17.05px;
+    -webkit-animation: ball-spin-fade-loader 1s -.12s infinite linear;
+    animation: ball-spin-fade-loader 1s -.12s infinite linear;
+}
+
+@-webkit-keyframes ball-spin-fade-loader {
+    50% {
+        opacity: .3
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes ball-spin-fade-loader {
+    50% {
+        opacity: .3
+    }
+
+    100% {
+        opacity: 1
+    }
+}
